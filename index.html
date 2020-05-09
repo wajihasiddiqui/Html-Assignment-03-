@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <script src="https://kit.fontawesome.com/73a5f5577e.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    <div class="main">
+        <div class="nav1">
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+                <img src="./assest/logo.png" alt="">
+            </div>
+        </div>
+        <div class="nav2">
+            Millions of people's life has changed, millions more awaiting your donation
+        </div>
+        <div class="nav3">
+            <button>UK donar</button>
+            <button>Donate Now</button>
+            <button>SMIT Result</button>
+        </div>
+    </div>
+    <div class="section">
+        <div class="logo">
+            <img src="./saylani-logo (1).png" alt="" width="200" height="50">
+        </div>
+        <div class="menu">
+            <span class="active">Home</span>
+            <span >About <i class="fas fa-caret-down"></i>
+            </span>
+            <span class="services-saylani">
+                Saylani Services <i class="fas fa-caret-down drop-"></i>
+            </span>
+            <span>Future Project <i class="fas fa-caret-down"></i> </span>
+            <span>Media</span>
+            <span>News</span>
+            <span>Donation <i class="fas fa-caret-down"></i></span>
+        </div>
+        <i class="fas fa-grip-lines"></i>
+
+    </div>
+    <hr>
+    <section>
+        <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-12 col-lg-12 col-sm-12 slid">
+    
+    
+    
+              <!-- Slideshow container -->
+        <div class="slideshow-container">
+    
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./slider1.png" style="width:100%">
+            <div class="text">Caption Text</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./slider7.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./RotiBank_Slider.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+    
+          <script>
+              var slideIndex = 1;
+              showSlides(slideIndex);
+              
+              function plusSlides(n) {
+                showSlides(slideIndex += n);
+              }
+              
+              function currentSlide(n) {
+                showSlides(slideIndex = n);
+              }
+              
+              function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+              }
+              </script>
+    
+          </div>
+        </div>
+    
+      </section>
+    <!-- ************** Slider  is Ended *****************-->
+     
+
+    <!-- <div class="slider">
+        <img src="./assest/molana.jpg" alt="">
+        <i class="fas fa-circle" ></i>
+        <i class="fas fa-circle"></i>
+        <i class="fas fa-circle" ></i>
+    </div> -->
+    <div class="marquee">
+        <marquee behavior="" direction="">
+            <span style="color: #008000;">(News-1 Dated:15-06-2019)</span>  PIAICNext Phase Admission in Islamabad And Faisalabad" . More Details    <span style="color: green;">(News-2 Dated:15-05-2019)</span>  Saylani Welfare Announced "Donation Application" . More Details    <span style="color: green;">(News-3 Dated:07-05-2019)</span>  Alhamdulillah Saylani Organized 200+ Locations For Iftar And Sehri In This Holy Month . More Details    <span style="color: green;">(News-4 Dated:08-03-2019)</span>  Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan. More Details    <span style="color: green;">(News-5 Dated:25-02-2019)</span>  PIAIC Entrance Exam Merit Ranking List Announced. More Details   <span style="color: green;">(News-6 Dated:23-02-2019)</span>  President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. More Details    <span style="color: green;">(News-7 Dated:19-02-2019)</span>  Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training. More Details   
+        </marquee>
+
+
+    </div>
+    <section>
+        <h1><span style="color: blue;">INTRO</span><span style="color: green;">DUCTION</span>  </h1>
+        <div class="image-intro">
+        
+           <span style="border-bottom: 1px solid green;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <img src="./assest/favicon.png" alt="">
+           <span style="border-bottom: 1px solid green;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <div class="content">
+                <p>
+                    Established in May 1999 by famous spiritual and religious scholar Maulana Bashir Ahmed Farooqui, Saylani Welfare International Trust was built on the fundamentals of breaking the cycle of poverty, alleviating the financial troubles of the poor, giving people a chance to live a dignified life and spreading happiness.
+                </p>
+                <p>
+                    We are an organization that believes in lighting up the lives of underprivileged people across the world. We endeavor to provide the best quality services in areas including food, education, medical and social welfare free of cost to people living in the dark. With over 60 different sectors, we feed thousands of hungry people each day, hundreds more are given the hope of life through medical health care, many are educated to become leaders of tomorrow and several are given the opportunity to stand on their feet financially.
+                </p>
+                <p>
+                    Today, we are proud to say that our physical presence extends throughout Pakistan with a vast network of 125 branches operating in major cities including Karachi, Lahore, Islamabad, Rawalpindi, Hyderabad and Faisalabad. Apart from Pakistan, we have overseas offices in the UK, USA and UAE as well. Our worldwide branches are operating under the guidance of a team of over 2,000 working professionals who help almost 125,000 people on a daily basis.
+                </p>
+                <p>
+                    We strongly believe that a little help goes a long way and our work would not be possible without the generous support of our valuable donors. Our local and international donors have graciously lent us a hand by supporting our causes and enabling us to serve the needs of people in need.
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="counters">
+        <div class="child1">
+            <span>
+                <img src="./assest/icon_food_png.png" alt=""  width="50" height="50">
+            </span>
+            <h1>
+                125,000
+            </h1>
+            <h4>DAILY DASTRAKHAN <span style="color: #008000;">(MONTHLY)</span> </h4>
+        </div>
+        <div class="child2">
+            <span>
+                <img src="./assest/icon_family_png.png" alt=""  width="50" height="50">
+            </span>
+            <h1>
+                7,500
+            </h1>
+            <h4>FAMILY ADOPTION <span style="color: green;">(MONTHLY)</span> </h4>
+        </div>
+        <div class="child3">
+            <span>
+                <img src="./assest/icon_medical_png.png" alt=""  width="50" height="50">
+            </span>
+            <h1>43,749</h1>
+            <h4>MEDICAL <span style="color: green;">(MONTHLY)</span> </h4>
+        </div>
+        <div class="child4">
+            <span>
+                <img src="./assest/icon_education_png.png" alt=""  width="50" height="50">
+            </span>
+            <h1>180,000</h1>
+            <h4>EDUCATION  <span style="color: green;">(MONTHLY)</span> </h4>
+        </div>
+    </div>
+    <div class="our-serves">
+        <h1><span style="color: blue;">WHAT WE </span><span style="color: green;">ARE DOING</span>  </h1>
+        <div class="image-intro">
+        
+           <span style="border-bottom: 1px solid green;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <img src="./assest/favicon.png" alt="">
+           <span style="border-bottom: 1px solid green;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        
+    </div>
+    
+    </div>
+
+    <div class="main-box">
+        <div class="box">
+            <h3>Online Sadqah</h3>
+            <img src="./assest/onlinesadqah.png" alt="">
+        </div>
+        <div class="box">
+            <h3>Welfare</h3>
+            <img src="./assest/welfare.png" alt="">
+        </div>
+        <div class="box">
+            <h3>medical</h3>
+            <img src="./assest/medical.png" alt="">
+        </div>
+        <div class="box">
+            <h3>DASTRAKHAN</h3>
+            <img src="./assest/Dastarkhwan.png" alt="">
+        </div>
+        <div class="box">
+            <h3>RO PLANT</h3>
+            <img src="./assest/ROPLANT.png" alt="">
+        </div>
+        <div class="box">
+            <h3>EDUCATION</h3>
+            <img src="./assest/education.png" alt="">
+        </div>
+    </div>
+    <div class="misson-services">
+        <div class="mission">
+            <h3>
+                MISSION AND UPCOMING PROJECTS 
+            </h3>
+            <div class="missions">
+                <div class="mission-boxes">
+                    <img src="./assest/Hepatitis.png" width="50" height="50" alt=""> Hepatatis
+                </div>
+                <div class="mission-boxes">
+                   <img src="./assest/housing.png" width="50" height="50" alt=""> Housing
+                </div>
+                <div class="mission-boxes"> <img src="./assest/IT.png" width="50" height="50" alt=""> IT Literacy</div>
+                <div class="mission-boxes"><img src="./assest/tharparkar.png" width="50" height="50" alt=""> Tharparkar</div>
+            </div>
+        </div>
+        <div class="service">
+            <h3>
+                Upcoming Events
+            </h3>
+            <div class="services">
+                <p>
+                    <marquee behavior="" direction="up" >
+                        Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan .More Details.
+                        PIAIC Entrance Exam Merit Ranking List Announced.More Details President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. More Details
+                    </marquee>
+                </p>
+            </div>
+        </div>
+    </div>
+    <section>
+        <h1><span style="color: blue;">Images</span><span style="color: green;">Gallery</span>  </h1>
+        <div class="image-intro">
+        
+           <span style="border-bottom: 1px solid green;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <img src="./assest/favicon.png" alt="">
+           <span style="border-bottom: 1px solid green;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </section>
+    <div class="images-gallery">
+        <div class="gallery">
+            <img src="./rashan2.jpg" alt="">
+            <i class="fas fa-image"></i>
+            <i class="fas fa-download"></i>
+        </div>
+        <div class="gallery">
+            <img src="./food (1).jpg" alt="">
+            <i class="fas fa-image"></i>
+            <i class="fas fa-download"></i>
+        </div>
+        <div class="gallery">
+            <img src="./hazrat.jpg" alt="">
+            <i class="fas fa-image"></i>
+            <i class="fas fa-download"></i>
+        </div>
+        <div class="gallery">
+            <img src="./rashan2.jpg" alt="">
+            <i class="fas fa-image"></i>
+            <i class="fas fa-download"></i>
+        </div>
+        <div class="gallery">
+            <img src="./hazrat2.jpg" alt="">
+            <i class="fas fa-image"></i>
+            <i class="fas fa-download"></i>
+        </div>
+
+        
+    </div>
+    <footer>
+        <div class="section1">
+            <span>
+                Head Office,A-25,
+            <br> Bahadurabad Chowrangi Karachi, Pakistan
+            </span>
+            <br>
+            <br>
+            <span>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                UAN: 111-729-526 
+                <i class="fas fa-globe"></i>
+                (+0092-213) 4130786-90    
+            </span>
+            <br>
+            <br>
+            <span>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                CELL: 92-311-1729526
+            </span>
+            <br>
+            <br>
+            <span>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+
+                USA NO +1(716)941 7792
+            </span>
+            <br>
+            <br>
+            <span>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+
+                UK NO (+44)115 970 6256
+            </span>
+            <br><br>
+            <span>
+                <i class="fas fa-envelope-square"></i>
+                info@saylaniwelfare.com
+            </span>
+        </div>
+        <div class="section2">
+            Useful Links
+        </div>
+        <div class="section3">
+            <h3 style="color: #fff;">Contact With Us</h3>
+            <i class="fab fa-facebook-f" ></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </footer>
+</body>
+</html>
